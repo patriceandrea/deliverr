@@ -24,37 +24,34 @@ const HomeScreen = () => {
 
 
   return (
-    <SafeAreaView className='bg-white pt-5' >
-      <Text className='text-red-500'>
-        { }
-        <View className='flex-row pb-3 items-center mx-4 space-x-2 px-2'>
-          <Image
-            source={{
-              uri: 'https://links.papareact.com/wru',
-            }} className='h-7 w-7 bg-gray-300 p-4 rounded-full' />
-          <View className='flex-1'>
-            <Text className='font-bold text-gray-400 text-xs'> Deliverr!</Text>
-            <Text className='font-bold text-xl'> Current Location
-              <ChevronDownIcon size={20} color={"#00CCBB"} />
-              <Text />
-            </Text>
-          </View>
-          <UserIcon size={35} color="#00CCBB" />
+    <SafeAreaView className='bg-white' >
+      <View className='flex-row pb-3 items-center mx-4 space-x-2'>
+        <Image
+          source={{
+            uri: 'https://links.papareact.com/wru',
+          }} className='h-7 w-7 bg-gray-300 p-4 rounded-full' />
+        <View className='flex-1'>
+          <Text className='font-bold text-gray-400 text-xs'> Deliverr!</Text>
+          <Text className='font-bold text-xl'> Current Location
+            <ChevronDownIcon size={20} color={"#00CCBB"} />
+            <Text />
+          </Text>
+        </View>
+        <UserIcon size={35} color="#00CCBB" />
+      </View>
+
+
+      <View className='flex-row pb-2 space-x-2 mx-4'>
+        <View className='flex-row flex-1 space-x-2 bg-gray-200 p-2'>
+          <FontAwesomeIcon icon={faMagnifyingGlass} size={25} color='gray' />
+          <TextInput
+            placeholder='Restaurants and cuisines'
+            keyboardType='default'
+          />
         </View>
 
-
-        <View>
-          <View className='flex-row'>
-            <FontAwesomeIcon icon={faMagnifyingGlass} size={25} color='blue' />
-            <TextInput
-              placeholder='Restaurants and cuisines'
-              keyboardType='default'
-            />
-          </View>
-
-          <FontAwesomeIcon icon={faSlidersH} size={30} color="#00CCBB" />
-        </View>
-      </Text>r
+        <FontAwesomeIcon icon={faSlidersH} size={30} color="#00CCBB" />
+      </View>
     </SafeAreaView>
   )
 }
