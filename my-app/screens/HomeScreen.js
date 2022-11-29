@@ -1,4 +1,4 @@
-import { View, Text, SafeAreaView, Image, TextInput } from 'react-native'
+import { View, Text, SafeAreaView, Image, TextInput, ScrollView } from 'react-native'
 import React, { useLayoutEffect } from 'react'
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native'
@@ -10,6 +10,7 @@ import {
 import { AdjustmentsIcon } from 'react-native-heroicons/outline'
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { faMagnifyingGlass, faSlidersH } from '@fortawesome/free-solid-svg-icons'
+import Categories from '../components/Categories';
 
 
 const HomeScreen = () => {
@@ -24,7 +25,8 @@ const HomeScreen = () => {
 
 
   return (
-    <SafeAreaView className='bg-white' >
+    <SafeAreaView className='bg-white'>
+      {/*Header*/}
       <View className='flex-row pb-3 items-center mx-4 space-x-2'>
         <Image
           source={{
@@ -39,8 +41,7 @@ const HomeScreen = () => {
         </View>
         <UserIcon size={35} color="#00CCBB" />
       </View>
-
-
+      {/*Search*/}
       <View className='flex-row pb-2 space-x-2 mx-4'>
         <View className='flex-row flex-1 space-x-2 bg-gray-200 p-2'>
           <FontAwesomeIcon icon={faMagnifyingGlass} size={25} color='gray' />
@@ -49,9 +50,19 @@ const HomeScreen = () => {
             keyboardType='default'
           />
         </View>
-
-        <FontAwesomeIcon icon={faSlidersH} size={30} color="#00CCBB" />
+        <FontAwesomeIcon icon={faSlidersH} size={25} color="#00CCBB" />
       </View>
+      {/*Body*/}
+      <ScrollView className='bg-gray-100'
+        contentContainerStyle={{
+          paddingBottom: 100
+        }}
+      >
+        {/*Category Component*/}
+        <Categories />
+        {/*Featured Rows Component*/}
+      </ScrollView>
+
     </SafeAreaView>
   )
 }
