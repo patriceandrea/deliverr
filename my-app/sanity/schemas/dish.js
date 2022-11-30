@@ -18,7 +18,7 @@ export default {
     {
       name: 'price',
       type: 'number',
-      title: 'Price of the dish in GBP',
+      title: 'Price of the dish in CAD',
       validation: (Rule) => Rule.max(200)
     },
     {
