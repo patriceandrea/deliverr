@@ -11,6 +11,7 @@ import { AdjustmentsIcon } from 'react-native-heroicons/outline'
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { faMagnifyingGlass, faSlidersH } from '@fortawesome/free-solid-svg-icons'
 import Categories from '../components/Categories';
+import FeaturedRows from '../components/FeaturedRows';
 
 
 const HomeScreen = () => {
@@ -61,8 +62,24 @@ const HomeScreen = () => {
         {/*Category Component*/}
         <Categories />
         {/*Featured Rows Component*/}
+        <FeaturedRows
+          title="Featured"
+          description="Paid placements from our partners"
+          featuredCategory="featured"
+        />
+        {/*Featured Rows: Tasty Discount*/}
+        <FeaturedRows
+          title="Tasty Discount"
+          description="Paid placements from our partners"
+          featuredCategory="featured"
+        />
+        {/*Offers Near You: Tasty Discount*/}
+        <FeaturedRows
+          title="Featured"
+          description="Paid placements from our partners"
+          featuredCategory="featured"
+        />
       </ScrollView>
-
     </SafeAreaView>
   )
 }
