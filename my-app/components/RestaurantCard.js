@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { StarIcon, LocationMarkerIcon } from 'react-native-heroicons/solid'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { urlFor } from "../sanity/sanity";
+import { useNavigation } from '@react-navigation/native'
 const RestaurantCard = ({
   id,
   imgUrl,
@@ -16,8 +17,15 @@ const RestaurantCard = ({
   long,
   lat
 }) => {
+
+  const navigation = useNavigation();
+
   return (
-    <TouchableOpacity className='bg-white mr-3 shadow'>
+    <TouchableOpacity
+      onPress={() => {
+        navigation.navigate('Restaurant');
+      }}
+      className='bg-white mr-3 shadow'>
       <Image
         source={{
           uri: urlFor(imgUrl).url()
