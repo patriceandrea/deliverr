@@ -1,8 +1,8 @@
 import { View, Text, TouchableOpacity, Image } from 'react-native'
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
-import { StarIcon, LocationMarkerIcon } from 'react-native-heroicons/solid'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { StarIcon, LocationMarkerIcon } from 'react-native-heroicons/solid'
 import { urlFor } from "../sanity/sanity";
 import { useNavigation } from '@react-navigation/native'
 const RestaurantCard = ({
@@ -23,7 +23,18 @@ const RestaurantCard = ({
   return (
     <TouchableOpacity
       onPress={() => {
-        navigation.navigate('Restaurant');
+        navigation.navigate('Restaurant', {
+          id,
+          imgUrl,
+          title,
+          rating,
+          genre,
+          address,
+          short_description,
+          dishes,
+          long,
+          lat
+        });
       }}
       className='bg-white mr-3 shadow'>
       <Image

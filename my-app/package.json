@@ -15,7 +15,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-native-fontawesome": "^0.3.0",
     "@heroicons/react": "^2.0.13",
-    "@react-navigation/native": "^6.0.14",
+    "@react-navigation/native": "^6.0.16",
     "@react-navigation/native-stack": "^6.9.2",
     "@sanity/client": "^3.4.1",
     "@sanity/image-url": "^1.0.1",
