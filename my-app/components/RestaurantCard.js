@@ -3,6 +3,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { StarIcon, LocationMarkerIcon } from 'react-native-heroicons/solid'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { urlFor } from "../sanity/sanity";
 const RestaurantCard = ({
   id,
   imgUrl,
@@ -19,7 +20,7 @@ const RestaurantCard = ({
     <TouchableOpacity className='bg-white mr-3 shadow'>
       <Image
         source={{
-          uri: imgUrl
+          uri: urlFor(imgUrl).url()
         }}
         className='w-64 h-36 rounded-sm'
       />
