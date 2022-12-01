@@ -1,5 +1,5 @@
 import { View, Text, SafeAreaView, Image, TextInput, ScrollView } from 'react-native'
-import React, { useLayoutEffect } from 'react'
+import React, { useEffect, useLayoutEffect, useState } from 'react'
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native'
 import {
@@ -12,16 +12,29 @@ import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { faMagnifyingGlass, faSlidersH } from '@fortawesome/free-solid-svg-icons'
 import Categories from '../components/Categories';
 import FeaturedRows from '../components/FeaturedRows';
+import client from "../sanity/sanity";
 
 
 const HomeScreen = () => {
   const navigation = useNavigation()
-
+  const [featuredCategories, setFeaturedCategories] = useState([])
 
   useLayoutEffect(() => {
     navigation.setOptions({
       headerShown: false,
     })
+  }, [])
+
+  useEffect(() => {
+    client.fetch(`*[_type == "featured"] 
+        {..., restaurants[]->
+          {..., dishes[]->
+          }
+        }`)
+      .then((data) => {
+        console.log(data)
+        setFeaturedCategories(data);
+      })
   }, [])
 
 
