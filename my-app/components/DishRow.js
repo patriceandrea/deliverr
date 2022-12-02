@@ -7,6 +7,9 @@ import { MinusCircleIcon, PlusCircleIcon } from 'react-native-heroicons/solid';
 const DishRow = ({ id, name, description, price, image }) => {
   const [isPressed, setIsPressed] = useState(false);
 
+  const addItemToBasket = () => {
+
+  }
   return (
     <>
       <TouchableOpacity onPress={() => setIsPressed(!isPressed)} className={`bg-white border p-4 border-gray-200 ${isPressed && "border-b-0"
