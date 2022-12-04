@@ -86,6 +86,7 @@ const RestaurantScreen = () => {
         {/* DishRows */}
         {dishes.map((dish) => (
           <DishRow
+            id={dish._id}
             key={dish._id}
             name={dish.name}
             description={dish.short_description}
