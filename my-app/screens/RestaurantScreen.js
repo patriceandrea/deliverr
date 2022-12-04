@@ -8,10 +8,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import DishRow from '../components/DishRow';
 import BasketIcon from '../components/BasketIcon';
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { setRestaurant } from '../features/restaurantSlice';
+
 
 const RestaurantScreen = () => {
 
   const navigation = useNavigation();
+  const dispatch = useDispatch();
 
   const {
     params: {
@@ -30,6 +35,27 @@ const RestaurantScreen = () => {
 
 
   useLayoutEffect(() => {
+    navigation.setOptions({
+      headerShown: false,
+    })
+  }, [])
+
+  useEffect(() => {
+    dispatch(setRestaurant({
+      id,
+      imgUrl,
+      title,
+      rating,
+      genre,
+      address,
+      short_description,
+      dishes,
+      long,
+      lat,
+    }))
+  }, [dispatch])
+
+  useEffect(() => {
     navigation.setOptions({
       headerShown: false,
     })
