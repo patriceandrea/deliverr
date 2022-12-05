@@ -1,4 +1,5 @@
 # deliverr
+a Deliverro-clone food pick-up mobile application using React Native. 
 
 # Tech Stack 
 - React Native 
