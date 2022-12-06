@@ -65,4 +65,4 @@ expo start
 5. Once in the server, press `i` to open iOS simulator **OR** press `a` to open Android simulator. 
 # Ressources 
 This is based on Sonny Sangha's "Let's build Deliveroo 2.0 with React Native" Project. This is built for learning purposes only. 
-### [Deliveroo - Youtube Link](https://www.youtube.com/watch?v=taPz40VmyzQ)
+#### [Deliveroo - Youtube Link](https://www.youtube.com/watch?v=taPz40VmyzQ)
