@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "Deliverr",
+    "slug": "deliverr",
+    "description": "deliveroo clone food pick-up application",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/deliveroo-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/deliver-splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },

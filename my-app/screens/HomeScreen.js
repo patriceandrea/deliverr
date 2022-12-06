@@ -86,26 +86,6 @@ const HomeScreen = () => {
           />
         ))}
 
-        <FeaturedRows
-          id="123"
-          title="Featured"
-          description="Paid placements from our partners"
-          featuredCategory="featured"
-        />
-        {/*Featured Rows: Tasty Discount*/}
-        <FeaturedRows
-          id="123"
-          title="Tasty Discount"
-          description="Everyone's been enjoying these juicy discounts"
-          featuredCategory="discounts"
-        />
-        {/*Offers Near You: Tasty Discount*/}
-        <FeaturedRows
-          id="123"
-          title="Offers near you"
-          description="Why not support your local restaurant tonight!"
-          featuredCategory="offers"
-        />
       </ScrollView>
     </SafeAreaView>
   )
