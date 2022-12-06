@@ -37,7 +37,32 @@ Click on the link below with your device.
 - Sanity.io 
 
 # Getting Started 
+How to run locally:
 
+1. **Fork** this repository, then `git clone` your fork of this repository.
+2. Change directory to `my-app` folder
+```bash
+cd my-app
+```
+3. Install all dependencies.
+```
+npm install
+```
+&
+```
+npx expo install
+```
+4. Start the server 
 
+```
+npx expo start 
+```
+or 
+
+```
+expo start 
+```
+5. Once in the server, press `i` to open iOS simulator **OR** press `a` to open Android simulator. 
 # Ressources 
-
+This is based on Sonny Sangha's "Let's build Deliveroo 2.0 with React Native" Project. This is built for learning purposes only. 
+### [Deliveroo - Youtube Link](https://www.youtube.com/watch?v=taPz40VmyzQ)
