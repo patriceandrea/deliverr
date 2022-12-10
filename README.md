@@ -11,18 +11,11 @@ Deliverr is a deliverro-clone food pick-up mobile application using React Native
 - press `Place Order` and views estimated arrival with map view
 
 ## 📸
-<img src="./my-app/public/img/Simulator1.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="120" height="250" />
-<img src="./my-app/public/img/Simulator2.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="120" height="250" />
-<img src="./my-app/public/img/Simulator3.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="120" height="250" />
-<img src="./my-app/public/img/Simulator4.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="120" height="250" />
-<img src="./my-app/public/img/Simulator5.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="120" height="250" />
-<img src="./my-app/public/img/Simulator6.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="120" height="250" />
+<img src="./my-app/public/img/Simulator1.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="120" height="250" /><img src="./my-app/public/img/Simulator2.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="120" height="250" /><img src="./my-app/public/img/Simulator3.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="120" height="250" /><img src="./my-app/public/img/Simulator4.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="120" height="250" /><img src="./my-app/public/img/Simulator5.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="120" height="250" /><img src="./my-app/public/img/Simulator6.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="120" height="250" />
 
 ##  🎥
 <img src="./my-app/public/img/deliverr1-view.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="100" height="200" />
-<!-- <img src="./my-app/public/img/deliverr-view.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="100" height="200" /> -->
-<img src="./my-app/public/img/adds-to-basket.gif" width="100" height="200" />
-<img src="./my-app/public/img/place-order.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="100" height="200" />
+<!-- <img src="./my-app/public/img/deliverr-view.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="100" height="200" /> --><img src="./my-app/public/img/adds-to-basket.gif" width="100" height="200" /><img src="./my-app/public/img/place-order.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="100" height="200" />
 
 ## Live Demo 🔴
 Open camera app on your device and scan the code below.
