@@ -10,7 +10,10 @@ Deliverr is a deliverro-clone food pick-up mobile application using React Native
 - views dish ordered and total order cost 
 - press `Place Order` and views estimated arrival with map view
 
+## 📸
+
 ##  🎥
+<img src="./my-app/public/img/deliverr1-view.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="150" height="300" />
 <img src="./my-app/public/img/deliverr-view.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="150" height="300" />
 <img src="./my-app/public/img/adds-to-basket.gif" width="150" height="300" />
 <img src="./my-app/public/img/place-order.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="150" height="300" />
